@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CheckMines Privacy Policy</title>
+<meta name="description" content="Privacy policy for CheckMines, a Minesweeper-style puzzle game for Android by SDX STUDIO. The app collects no personal data.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --paper: #f6f3ec;
+    --card: #fcf9f2;
+    --ink: #1c1b18;
+    --muted: #4a473f;
+    --line: #dfdbd2;
+    --accent: #1f6a64;
+    --accent-soft: #b6ede5;
+    --on-accent-soft: #00201d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #121412;
+      --card: #1a1d1b;
+      --ink: #e4e2dc;
+      --muted: #bfc9c3;
+      --line: #333634;
+      --accent: #9ad1c9;
+      --accent-soft: #00504a;
+      --on-accent-soft: #b6ede5;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding-block: 40px 56px;
+    padding-inline: 20px;
+    background: var(--paper);
+    color: var(--ink);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .mark {
+    flex: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    width: 52px;
+    height: 52px;
+    padding: 6px;
+    border-radius: 16px;
+    background: var(--accent-soft);
+  }
+  .mark span { border-radius: 5px; background: var(--accent); }
+  .mark span:nth-child(4) { background: transparent; border: 2px solid var(--accent); }
+  h1 { margin: 0; font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.2; }
+  .byline { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
+  .summary {
+    margin: 28px 0 8px;
+    padding: 18px 20px;
+    border-radius: 20px;
+    background: var(--accent-soft);
+    color: var(--on-accent-soft);
+  }
+  .summary strong { display: block; font-size: 1.1rem; margin-bottom: 4px; }
+  .summary p { margin: 0; }
+  h2 { margin: 36px 0 8px; font-size: 1.2rem; color: var(--accent); }
+  p, ul { margin: 0 0 12px; }
+  ul { padding-inline-start: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  .card {
+    padding: 4px 20px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    background: var(--card);
+  }
+  footer {
+    margin-top: 44px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <div>
+      <h1>CheckMines Privacy Policy</h1>
+      <p class="byline">SDX STUDIO · Effective 13 September 2026</p>
+    </div>
+  </header>
+
+  <section class="summary">
+    <strong>Nothing leaves your phone.</strong>
+    <p>CheckMines has no accounts, ads, analytics or trackers. The app doesn't have internet access, so it can't send any of your data anywhere.</p>
+  </section>
+
+  <p>This policy explains how the CheckMines app for Android ("the app"), made by SDX STUDIO ("we", "us"), handles information. It applies to the app as distributed on Google Play.</p>
+
+  <h2>Information we collect</h2>
+  <p>We don't collect, store on our servers, sell or share any personal information. The app does not request internet access, and it contains no advertising, analytics, crash-reporting or tracking software.</p>
+
+  <h2>What's saved on your device</h2>
+  <p>To work as a game, the app keeps a small amount of data in its private storage on your device. Only the app can read it:</p>
+  <div class="card">
+    <ul>
+      <li><strong>Settings:</strong> theme, dynamic color, reduce haptics and reduce motion.</li>
+      <li><strong>Best times</strong> for each difficulty.</li>
+      <li><strong>The game in progress</strong>, so it survives if Android closes the app in the background.</li>
+    </ul>
+  </div>
+  <p>You can clear your best times with <em>Settings → Reset records</em>. Clearing the app's storage in Android settings, or uninstalling the app, removes everything.</p>
+
+  <h2>Backups and device transfer</h2>
+  <p>If Android backup is turned on, your phone may include the app's settings and best times in its own backup to your Google account, or copy them when you move to a new phone. That backup is handled by Android and your Google account under Google's terms, not by SDX STUDIO. We can't access it.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Vibration</strong>, for haptic feedback while you play. You can reduce it in Settings.</li>
+  </ul>
+  <p>For dynamic color, the app asks Android for your wallpaper's main color and uses it on the device to tint the app. The wallpaper itself is never saved or shared.</p>
+
+  <h2>Links to other apps</h2>
+  <p>Some buttons in Settings hand you over to another app. Once you leave CheckMines, that app's own privacy policy applies:</p>
+  <ul>
+    <li><strong>Send feedback</strong> and <strong>Email us</strong> open your email app. If no email app is installed, our address is copied to your clipboard.</li>
+    <li><strong>Rate us on Google Play</strong> opens the Google Play Store.</li>
+    <li><strong>Share CheckMines</strong> opens Android's share menu with a link to the app.</li>
+    <li><strong>Follow SDX STUDIO</strong> opens our Instagram profile in the Instagram app or your browser.</li>
+  </ul>
+
+  <h2>Emails you send us</h2>
+  <p>If you write to us, we receive your email address and your message. We use them only to reply and to improve the app, and we don't share them with anyone. You can ask us to delete your emails at any time.</p>
+
+  <h2>Children's privacy</h2>
+  <p>CheckMines is suitable for all ages. Because the app collects no personal information from anyone, it collects none from children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we'll update this page and the policy inside the app, with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or feedback? Email SDX STUDIO at <a href="mailto:rahilwani8090@gmail.com">rahilwani8090@gmail.com</a>.</p>
+
+  <footer>
+    <p>CheckMines by SDX STUDIO · Follow us on <a href="https://www.instagram.com/sdx.studio1">Instagram</a></p>
+  </footer>
+</main>
+</body>
+</html>
